@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project #4</title>
+  <link rel="stylesheet" href="reset.css"  >
+  <link rel="stylesheet" href="style.css"  >
+
+</head>
+
+<body>
+
+<div  class="container"  >
+
+    <div  class="header"  >
+        <div class="logo_box" >
+        </div>
+        <h1   class="header_title"  >   My Book List   </h1>
+    </div>
+
+
+
+    <div id="book-form">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" id="title" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="author">Author</label>
+            <input type="text" id="author" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="isbn">ISBN#</label>
+                <input type="text" id="isbn" class="form-control">
+        </div>
+        <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+    </div>
+
+
+    <input   class="inputing"  placeholder="Поиск"     >
+
+
+    <table class="table table-striped mt-5">
+        <thead>
+        <tr    id="head_list" >
+                <th>    <p  class="thead_title"    > Title </p>      </th>
+            <th>  <p  class="thead_title"    > Author </p>    </th>
+            <th>  <p  class="thead_title"    > ISBN </p>           </th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody id="book-list">
+
+        <tr>
+            <td>3</td>
+            <td> Булгаков </td>
+            <td>Морфий</td>
+            <td><button       class="delete"   >X</button></td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td> Пушкин </td>
+            <td>Евгений Онегин</td>
+            <td><button       class="delete"   >X</button></td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td> Толстой </td>
+            <td>Муму</td>
+            <td><button       class="delete"   >X</button></td>
+        </tr>
+
+
+        </tbody>
+    </table>
+
+
+
+
+
+
+</div>
+
+
+<script  src="script.js" >      </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
