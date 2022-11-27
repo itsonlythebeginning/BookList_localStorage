@@ -1,6 +1,6 @@
 # BookList_localStorage
 
-Try it here - https://itsonlythebeginning.github.io/BookList_localStorage/\
+Try it here - https://itsonlythebeginning.github.io/BookList_localStorage
 
 
 BookList c возможностями: 
