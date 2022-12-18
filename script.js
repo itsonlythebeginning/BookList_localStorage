@@ -88,17 +88,17 @@ book_list.addEventListener("click", function (event){
     }
 
 
-let index =  itemsArr.findIndex(function (z) {
-
-        return event.target.parentNode.parentNode.id == z.id
-
-})
+    itemsArr.forEach(function (z, index) {
+        if (z.id == event.target.parentNode.parentNode.id) {
 
 
-    itemsArr.splice(index, 1)
+            let deleteIndex = index
 
-    localStorage.setItem("itemsLocal", JSON.stringify(itemsArr))
+            itemsArr.splice(deleteIndex , 1)
+            localStorage.setItem("itemsLocal", JSON.stringify(itemsArr))
 
+        }
+    } )
 
 })
 
